@@ -14,7 +14,7 @@ This program requires an API token to use ADS. Here's how to obtain one:
 
 2. Visit the [API Token page](https://ui.adsabs.harvard.edu/user/settings/token), log in with your ADS account and you will see an API token string. Copy that token string.
 
-3.a Set your token string to an environment variable named `ADS_API_TOKEN`. You can do that by running:
+3. Set your token string to an environment variable named `ADS_API_TOKEN`. You can do that by running:
     ```bash
     # If you use bash or bash-like shells --
     export ADS_API_TOKEN="your token string here"
@@ -24,7 +24,8 @@ This program requires an API token to use ADS. Here's how to obtain one:
     setenv ADS_API_TOKEN "your token string here"
     ```
     You can put this line into your `~/.bashrc` or `~/.cshrc` file.
-3.b Alternatively, set your ADS token in the config file.
+
+4. Alternatively, set your ADS token in the config file.
 
 ### Usage
 1. Modify the config file for your specific needs.
